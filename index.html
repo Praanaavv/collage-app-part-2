@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <center>
+<h1>Collage Web App</h1>
+<hr>
+<h4>As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+<h3>Say "Selfie" for taking your selfies and to make a collage</h3>
+<hr>
+<div class="form-group">
+    <h3>Say "take my selfie"</h3>
+    <label>Your voice output : </label>
+    <br>
+    <textarea id="textbox" class="form-control" readonly="true"></textarea>
+</div>
+
+<h3>Please press the button below to take a selfie</h3>
+<button class="btn btn-warning"  type="button" style="background-color: rgb(0, 0, 0);"onclick="startspeech()"> Start</button>
+
+
+<h4>Your Webcam :</h4>
+<div id="camera"></div>
+<h4>Your selfies will be displayed here</h4>
+
+
+<div id="resultShow">
+    <div class="video"id="result1">
+        <video style="position: absolute; top: px;bottom: 90px px;  left: 550px;"id="myVideo" src="vecteezy_the-footage-animation-of-countdown-timer-from-5-seconds__666.mp4"></video>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+    </div>
+    <br>
+
+
+    
+    <div class="video" id="result2">
+        <video style="position: absolute; top: px;bottom: 90px px;  left: 550px;"id="myVideo2" src="vecteezy_the-footage-animation-of-countdown-timer-from-5-seconds__666.mp4"></video>
+        <img src="https://media.istockphoto.com/id/1382384282/photo/bangalore-or-bengaluru.jpg?s=612x612&w=0&k=20&c=6pxwL3JxNV2B_NZSLMZLhrSLqAbyCPlGuSZYKImpjKQ=" alt="">
+    </div>
+    <br>
+    
+    <div class="video" id="result3">
+        <video style="position: absolute; top: px;bottom: 90px px;  left: 550px;"id="myVideo3" src="vecteezy_the-footage-animation-of-countdown-timer-from-5-seconds__666.mp4"></video>
+        <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" alt="">
+    </div>
+
+</div>
+
+<div class="footer">
+    Made By Pranav
+</div>
+
+
+
+
+    </center>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+   
